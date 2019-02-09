@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather Results</title>
+	<style>
+	body {
+		background-image: url("/static/images/sky.jpg");
+		color: rgb();
+	}
+		div {
+			text-align: center;
+		}
+		ul, li {
+			list-style-type: none;
+			
+		}
+		p {
+			text-align: center;
+			padding-top: 120px;
+			font-size: 40px;
+			font-weight: bolder;
+			margin-left: 10px;
+		}
+	</style>
+</head>
+<body>
+	<p>Weather Conditions</p>
+	<div>
+		<ul>
+			<b><li>Weather State</b>:{{ weather_condition }}</li>
+			<b><li>Temperature</b>:{{ weather_temperature }} degrees</li>
+			<b/><li>Location</b>:{{ location[0],location[1] }}</li>
+		</ul>
+	</div>	
+</body>
+</html>

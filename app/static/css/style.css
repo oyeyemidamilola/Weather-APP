@@ -1,0 +1,27 @@
+
+header {
+	margin: 200px;
+}
+#Weather {
+	text-align: center;
+	margin: 30px;
+	font-size: 20px;
+	font-weight: bolder;
+}
+#location_form {
+	text-align: center;
+}
+#location {
+	text-align: center;
+	margin: 30px;
+	margin-right: 10px;
+	font-weight: bold;
+}
+#button {
+	width: 20%;
+	margin-left: 10px;
+	margin: 10px;
+}
+#conditions {
+	background-color: blue;
+	}

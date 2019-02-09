@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather Forecast</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/style.css') }}">
+	
+</head>
+<body id = "body">
+	<header id="header">
+		<p id="Weather">Weather Forecast</p>
+		<p id="location">Do you know want to share your location?</p>
+		<form id = "location_form" action="" method="POST">
+			<input type="radio" name="permission" value="YES" required="required"> YES<br>
+			<input type="radio" name="permission" value="NO" required="required"> NO<br>
+			<input id="button" type="submit" name="check_status" value="Submit">
+		</form>
+	</header>
+</body>
+</html>
