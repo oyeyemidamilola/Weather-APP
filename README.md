@@ -40,5 +40,5 @@ pip install -r <path to the 'requirements.txt'>
     ```
 7. Start local server with ``` flask run```
 
-A local server server is started on your machine. Open a browswer(Chrome) and navigate to the /home
+A local server server is started on your machine. Open a browser(Chrome) and navigate to the /home
     
