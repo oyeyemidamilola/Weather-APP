@@ -23,7 +23,7 @@ py -m virtualenv <your_environment_name>
 ```
 <your_environment_name>\Scripts\activate
 ```
-5. Install the requirements recursively by following command
+5. Install the requirements recursively by following command in the project folder directory
 
 ```
 pip install -r <path to the 'requirements.txt'>
