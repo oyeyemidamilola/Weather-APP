@@ -11,8 +11,31 @@ Python 3+ installed on your local machine
 
 1. Clone the repo to your local machine
 2. Install virtualvenv 
-'''
+```
 py -m pip install --user virtualenv
-'''
+```
+3. Create a virtual environment on your local machine in the your current directory
 
+```
+py -m virtualenv <your_environment_name>
+```
+4. Activate the environment
+```
+<your_environment_name>\Scripts\activate
+```
+5. Install the requirements recursively by following command
 
+```
+pip install -r <path to the 'requirements.txt'>
+```
+6. Navigate to the project folder and set up flask project
+    On Windows: run
+    ```
+    set FLASK_APP = weather_app.py 
+    ```
+    On Mac OS: run
+    ```
+    export FLASK_APP = weather_app.py 
+    ```
+7. Start local server with ``` flask run```    
+    
