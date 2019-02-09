@@ -29,6 +29,7 @@ py -m virtualenv <your_environment_name>
 pip install -r <path to the 'requirements.txt'>
 ```
 6. Navigate to the project folder and set up flask project
+    
     On Windows: run
     ```
     set FLASK_APP = weather_app.py 
@@ -37,5 +38,7 @@ pip install -r <path to the 'requirements.txt'>
     ```
     export FLASK_APP = weather_app.py 
     ```
-7. Start local server with ``` flask run```    
+7. Start local server with ``` flask run```
+
+A local server server is started on your machine. Open a browswer(Chrome) and navigate to the /home
     
